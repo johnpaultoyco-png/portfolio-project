@@ -135,16 +135,25 @@ h1 {
 	color: #1f4d3a;
 }
 
+.skills-container {
+    padding: 10px;
+}
+
+.skills {
+    text-align: center;
+}
+
 .skills-container .skills .card {
 	width: 200px;
 	height: 200px;
-    background-color: white;
+    background-color: #2e7658;
+	color: #dceadf;
     padding: 20px;
-	margin: 0px 15px;
+    margin: 0 15px 20px 15px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-	display: inline-block;
+   	display: inline-block;
+	vertical-align: top; /* Para pareha sila og starting position sa taas. Dili mo Naog or ubos kay kung inline-block ang cards, ang default vertical-align kay baseline, mao nga murag naay usa nga ni-angat o nanaog*/
 }
 
 .skills-container .skills img {
