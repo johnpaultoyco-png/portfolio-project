@@ -76,7 +76,7 @@ h1 {
 	padding: 10px;
 	border-radius: 5px;
 }
-.info {
+.info-container {
     margin: 20px;
     border: 2px solid #1f4d3a;
     border-radius: 8px;
@@ -85,10 +85,11 @@ h1 {
 
 }
 
-.biography {
-    width: 35%;
-    border-right: 2px solid #1f4d3a;
+.info{
+	width: 35%;
+	gap: 20px;
     padding: 20px;
+	border-right: 2px solid #1f4d3a;
 }
 
 .info2 {
@@ -98,14 +99,14 @@ h1 {
     padding: 20px;
 }
 
-.info h3 {
+.info-container h3 {
     color: #1f4d3a;
     margin-bottom: 10px;
     padding: 0;
     font-size: 22px;
 }
 
-.info p {
+.info-container p {
     margin: 0;
     padding: 0;
     line-height: 1.5;
@@ -121,4 +122,12 @@ h1 {
 
 .hobbies li {
     margin-bottom: 5px;
+}
+
+.hobbies img {
+	margin-right: 10px;
+}
+
+.skills img{
+	margin-right: 10px;
 }
