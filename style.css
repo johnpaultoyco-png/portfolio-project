@@ -90,6 +90,8 @@ h1 {
 	gap: 20px;
     padding: 20px;
 	border-right: 2px solid #1f4d3a;
+	color: #f2f2f2;
+	background-color: #84c0a6;
 }
 
 .info2 {
@@ -128,6 +130,24 @@ h1 {
 	margin-right: 10px;
 }
 
-.skills img{
-	margin-right: 10px;
+.skills-container .skills h3{
+	font-size: 22px;
+	color: #1f4d3a;
+}
+
+.skills-container .skills .card {
+	width: 200px;
+	height: 200px;
+    background-color: white;
+    padding: 20px;
+	margin: 0px 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+	display: inline-block;
+}
+
+.skills-container .skills img {
+    width: 40px;
+    height: 40px;
 }
