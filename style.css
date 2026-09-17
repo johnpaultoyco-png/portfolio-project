@@ -25,6 +25,7 @@ body {
 .profile p {
 	margin: 10px;
 	font-size: 20px;
+	text-align: center;
 }
 
 h1 {
@@ -56,4 +57,8 @@ h1 {
 	padding: 20px;
 	background-color: #dceadf;
 	text-align: center;
+}
+
+.about h2 {
+	color: #1f4d3a;
 }
