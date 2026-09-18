@@ -85,22 +85,6 @@ h1 {
 
 }
 
-.info{
-	width: 35%;
-	gap: 20px;
-    padding: 20px;
-	border-right: 2px solid #1f4d3a;
-	color: #f2f2f2;
-	background-color: #84c0a6;
-}
-
-.info2 {
-    width: 65%; 
-    flex-direction: column;
-    gap: 20px;
-    padding: 20px;
-}
-
 .info-container h3 {
     color: #1f4d3a;
     margin-bottom: 10px;
@@ -114,6 +98,34 @@ h1 {
     line-height: 1.5;
     color: #1f4d3a;
 	text-indent: 2em;
+}
+
+.info{
+	width: 35%;
+	gap: 20px;
+    padding: 20px;
+	border-right: 2px solid #1f4d3a;
+	color: #f2f2f2;
+	background-color: #84c0a6;
+}
+
+.info .contact ul{
+	list-style: none;
+	padding: 0;
+
+}
+
+.info .contact img{
+	margin-right: 10px;
+}
+
+
+
+.info2 {
+    width: 65%; 
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
 }
 
 .hobbies ul {
