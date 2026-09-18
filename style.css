@@ -96,7 +96,6 @@ h1 {
     margin: 0;
     padding: 0;
     line-height: 1.5;
-    color: #1f4d3a;
 	text-indent: 2em;
 }
 
@@ -105,21 +104,35 @@ h1 {
 	gap: 20px;
     padding: 20px;
 	border-right: 2px solid #1f4d3a;
-	color: #f2f2f2;
 	background-color: #84c0a6;
 }
 
 .info .contact ul{
 	list-style: none;
 	padding: 0;
+}
 
+.info .contact li{
+	display: flex;
+    align-items: flex-start;
+    gap: 10px;
+	margin-bottom: 10px;
 }
 
 .info .contact img{
 	margin-right: 10px;
 }
 
+.info .contact .location {
+	display: flex;
+    align-items: flex-start;
+    gap: 5px;
+	line-height: 1.5;
+}
 
+.info .contact .link span {
+    word-break: break-word;
+}
 
 .info2 {
     width: 65%; 
@@ -131,7 +144,6 @@ h1 {
 .hobbies ul {
     margin: 0;
     padding-left: 20px;
-    color: #1f4d3a;
 }
 
 .hobbies li {
@@ -141,6 +153,7 @@ h1 {
 .hobbies img {
 	margin-right: 10px;
 }
+
 
 .skills-container .skills h3{
 	font-size: 22px;
