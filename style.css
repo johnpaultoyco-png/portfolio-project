@@ -145,48 +145,50 @@ body {
 }
 
 .skills-container {
-    .skills {
-        img {
-            margin-top: 20px;
-            width: 40px;
-            height: 40px;
-        }
-    }
-}
-
-.skills-container {
     padding: 10px;
-
-    .skills {
-        
-        h3 {
+	
+	h3 {
             font-size: 22px;
             color: white;
             background-color: #1f4d3a;
             margin-bottom: 20px;
             padding: 10px;
             border-radius: 5px;
-        }
+    }
 
+    .skills {
+		display: grid;
+        grid-template-columns: repeat(6, 1fr);
+		justify-content: center;
+        
         p {
-            text-align: center;
+			margin-top: 10px;
+			font-size: 16px;
+			overflow-wrap: anywhere;
         }
 
         .card {
             width: 200px;
-            height: 200px;
+            height: auto;
+            min-height: 200px;
             background-color: #2e7658;
             color: #dceadf;
             padding: 35px;
             margin: 0 15px 15px 15px;
             border-radius: 10px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            display: inline-block;
-            vertical-align: top;/* Para pareha sila og starting position sa taas. Dili mo Naog or ubos kay kung inline-block ang cards, ang default vertical-align kay baseline, mao nga murag naay usa nga ni-angat o nanaog*/
+            
+			/* I use this to center all content within the card */
+			display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+			text-align: center;
 		}
 
         img {
-            margin-top: 20px;
+			display: block;
+            margin: 0px auto;
             width: 40px;
             height: 40px;
         }
