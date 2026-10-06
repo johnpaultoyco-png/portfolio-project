@@ -8,50 +8,51 @@ body {
 	background-color: #f2f2f2;
 }
 
-.profile{
-	margin: 20px;
-	padding: 20px;
-	border-radius: 5px;
-	min-height: 100dvh;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	background-image: url("images/background.jpg");
-   background-size: cover;
+.profile {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/background.jpg");
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
 
-.profile img{
-	border-radius: 50%;
-	border: 5px solid #1f4d3a;
-}
-.profile p {
-	margin: 10px;
-	font-size: 20px;
-	text-align: center;
-}
+    img {
+        border-radius: 50%;
+        border: 5px solid #1f4d3a;
+    }
 
-h1 {
-	margin: 0;
-	color: #1f4d3a;
-	font-size: 40px;
-}
+    p {
+        margin: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
 
-.profile h2 {
-	margin: 5px;
-	font-size: 25px;
-}
+    h1 {
+        margin: 0;
+        color: #1f4d3a;
+        font-size: 40px;
+    }
 
-.profile a {
-	margin-top: 20px;
-	padding: 10px 20px;
-	background-color: #1f4d3a;
-	color: white;
-	text-decoration: none;
-	border-radius: 5px;
-	transition: background-color 0.3s ease;
+    h2 {
+        margin: 5px;
+        font-size: 25px;
+    }
+
+    a {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #1f4d3a;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
 }
 
 .profile a:hover {
@@ -59,41 +60,41 @@ h1 {
 }
 
 .about {
-	margin: 20px;
-	padding: 0 20px;
-	border-radius: 5px;
-	min-height: 100dvh;
-	display: flex;
-	flex-direction: column;
-	background-color: #dceadf;
-	text-align: center;
+    margin: 20px;
+    padding: 0 20px;
+    border-radius: 5px;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    background-color: #dceadf;
+    text-align: center;
+
+    h2 {
+        color: #f2f2f2;
+        background-color: #1f4d3a;
+        margin-bottom: 2px;
+        padding: 10px;
+        border-radius: 5px;
+    }
 }
 
-.about h2 {
-	color: #f2f2f2;
-	background-color: #1f4d3a;
-	margin-bottom: 2px;
-	padding: 10px;
-	border-radius: 5px;
-}
 .info-container {
     margin: 20px;
     border: 2px solid #1f4d3a;
     border-radius: 8px;
     display: flex;
-	text-align: justify;
+    text-align: justify;
 
-}
+    h3 {
+        color: #1f4d3a;
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
 
-.info-container h3 {
-    color: #1f4d3a;
-    margin-bottom: 10px;
-    font-size: 22px;
-}
-
-.info-container p {
-    line-height: 1.5;
-	text-indent: 2em;
+    p {
+        line-height: 1.5;
+        text-indent: 2em;
+    }
 }
 
 .info{
@@ -128,47 +129,66 @@ h1 {
     padding: 20px;
 }
 
-.hobbies ul {
-    margin: 0;
-    padding-left: 20px;
+.hobbies {
+    ul {
+        margin: 0;
+        padding-left: 20px;
+    }
+
+    li {
+        margin-bottom: 5px;
+    }
+
+    img {
+        margin-right: 10px;
+    }
 }
 
-.hobbies li {
-    margin-bottom: 5px;
-}
-
-.hobbies img {
-	margin-right: 10px;
-}
-
-
-.skills-container .skills h3{
-	font-size: 22px;
-	color: #1f4d3a;
+.skills-container {
+    .skills {
+        img {
+            margin-top: 20px;
+            width: 40px;
+            height: 40px;
+        }
+    }
 }
 
 .skills-container {
     padding: 10px;
-}
 
-.skills p{
-    text-align: center;
-}
+    .skills {
+        
+        h3 {
+            font-size: 22px;
+            color: white;
+            background-color: #1f4d3a;
+            margin-bottom: 20px;
+            padding: 10px;
+            border-radius: 5px;
+        }
 
-.skills-container .skills .card {
-	width: 200px;
-	height: 200px;
-    background-color: #2e7658;
-	color: #dceadf;
-    padding: 20px;
-    margin: 0 15px 20px 15px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-   	display: inline-block;
-	vertical-align: top; /* Para pareha sila og starting position sa taas. Dili mo Naog or ubos kay kung inline-block ang cards, ang default vertical-align kay baseline, mao nga murag naay usa nga ni-angat o nanaog*/
-}
+        p {
+            text-align: center;
+        }
 
-.skills-container .skills img {
-    width: 40px;
-    height: 40px;
+        .card {
+            width: 200px;
+            height: 200px;
+            background-color: #2e7658;
+            color: #dceadf;
+            padding: 35px;
+            margin: 0 15px 15px 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            vertical-align: top;/* Para pareha sila og starting position sa taas. Dili mo Naog or ubos kay kung inline-block ang cards, ang default vertical-align kay baseline, mao nga murag naay usa nga ni-angat o nanaog*/
+		}
+
+        img {
+            margin-top: 20px;
+            width: 40px;
+            height: 40px;
+        }
+	}
 }
