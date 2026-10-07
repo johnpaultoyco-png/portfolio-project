@@ -158,7 +158,7 @@ body {
 
     .skills {
 		display: grid;
-        grid-template-columns: repeat(6, 1fr);
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 		justify-content: center;
         
         p {
@@ -177,6 +177,10 @@ body {
             margin: 0 15px 15px 15px;
             border-radius: 10px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+			/* **I use this to make the cards appear like a grid layout */
+			/* display: inline-block;
+            vertical-align: top; */
             
 			/* I use this to center all content within the card */
 			display: flex;
@@ -193,4 +197,64 @@ body {
             height: 40px;
         }
 	}
+}
+
+.project-container{
+    padding: 10px;
+    margin: 20px;
+    padding: 0 20px;
+    border-radius: 5px;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    background-color: #dceadf;
+    text-align: center;
+
+    h2 {
+        font-size: 22px;
+        color: white;
+        background-color: #1f4d3a;
+        margin-bottom: 20px;
+        padding: 10px;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    .projecto-card-container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;}
+
+    .project-card{
+        width: 200px;
+        height: auto;
+        min-height: 200px;
+        background-color: #2e7658;
+        color: #dceadf;
+        padding: 35px;
+        margin: 0 15px 15px 15px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        text-align: justify;
+        flex: 1; /*parehas sila og width ug automatically mo-share sa available space.*/
+
+        display: inline-block;
+        vertical-align: top;
+
+        img {
+			display: block;
+            margin: 0px auto;
+            width: 40px;
+            height: 40px;
+        }
+
+
+        p {
+			margin-top: 10px;
+			font-size: 16px;
+			overflow-wrap: anywhere;
+        }
+
+    }
+
 }
