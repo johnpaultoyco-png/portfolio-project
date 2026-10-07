@@ -243,9 +243,11 @@ body {
 
         img {
 			display: block;
-            margin: 0px auto;
-            width: 250px;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 200px;
             height: 300px;
+            object-fit: cover;
         }
 
         h3{
