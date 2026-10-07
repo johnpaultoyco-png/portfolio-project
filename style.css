@@ -235,7 +235,6 @@ body {
         margin: 0 15px 15px 15px;
         border-radius: 10px;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        text-align: justify;
         flex: 1; /*parehas sila og width ug automatically mo-share sa available space.*/
 
         display: inline-block;
@@ -261,13 +260,13 @@ body {
         }
 
         p {
-			margin-top: 10px;
+			margin: 30px 0px;
 			font-size: 16px;
 			overflow-wrap: anywhere;
+            text-align: justify;
         }
 
         a {
-            margin-top: 20px;
             padding: 10px 20px;
             background-color: #1f4d3a;
             color: white;
@@ -275,8 +274,6 @@ body {
             border-radius: 5px;
             transition: background-color 0.3s ease;
             text-align: center;
-
-            
         }
 
     }
