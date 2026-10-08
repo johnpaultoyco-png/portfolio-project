@@ -279,3 +279,53 @@ body {
     }
 
 }
+
+.education {
+    padding: 10px;
+    margin: 20px;
+    padding: 0 20px;
+    background-color: #dceadf;
+    border-radius: 5px;
+    text-align: center;
+
+    h2 {
+        color: white;
+        background-color: #1f4d3a;
+        padding: 15px;
+        border-radius: 5px;
+        margin-bottom: 30px;
+    }
+
+    .table-container {
+        width: 100%;
+        overflow-x: auto; /* allows horizontal scrolling on smaller screens. */
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse; /* joins adjacent borders */
+        background-color: white;
+        text-align: left;
+    }
+
+    th {
+        background-color: #1f4d3a;
+        color: white;
+        padding: 15px;
+        border: 1px solid #1f4d3a;
+    }
+
+    td {
+        padding: 15px;
+        border: 1px solid #b5cbbd;
+        color: #333;
+    }
+
+    tbody tr:nth-child(even) {
+        background-color: #edf5ef;
+    }
+
+    tbody tr:hover {
+        background-color: #dceadf;
+    }
+}
