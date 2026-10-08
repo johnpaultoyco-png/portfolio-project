@@ -45,6 +45,11 @@ body {
 
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+}
+
 .profile {
     margin: 20px;
     padding: 20px;
