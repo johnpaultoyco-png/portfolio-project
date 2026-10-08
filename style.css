@@ -8,6 +8,43 @@ body {
 	background-color: #f2f2f2;
 }
 
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f4d3a;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 40px;
+    }
+
+    .nav-links {
+        display: flex;
+        gap: 30px;
+        list-style: none;
+        padding-right: 40px;
+    }
+    
+    a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    }
+
+    .nav-links a:hover {
+    color: #84c0a6;
+    }
+
+}
+
 .profile {
     margin: 20px;
     padding: 20px;
