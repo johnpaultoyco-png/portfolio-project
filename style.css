@@ -188,6 +188,7 @@ html {
 
 .skills-container {
     padding: 10px;
+    min-height: 100dvh;
 	
 	h3 {
             font-size: 22px;
@@ -324,6 +325,7 @@ html {
 .education {
     margin: 20px;
     padding: 10px 20px;
+    min-height: 100dvh;
     background-color: #dceadf;
     border-radius: 5px;
     text-align: center;
