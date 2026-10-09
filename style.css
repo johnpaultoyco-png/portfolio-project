@@ -453,4 +453,45 @@ html {
         transition: background-color 0.3s ease,
                     transform 0.2s ease;
     }
+    
+     .send-btn:hover {
+        background-color: #2e7658;
+        transform: translateY(-2px);
+    }
+
+    .send-btn:focus-visible {
+        outline: 3px solid #84c0a6;
+        outline-offset: 3px;
+    }
+
+    @media (max-width: 600px) {
+        .contact-container {
+            margin: 10px;
+            padding: 25px 12px;
+        }
+
+        .contact-form {
+            padding: 20px 15px;
+        }
+    }
 }
+
+@media (max-width: 600px) {
+    .profile h1 {
+        font-size: 30px;
+    }
+    
+    .project-card {
+    width: 100%;
+    }
+
+    .projecto-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+    .table-container {
+    overflow-x: auto;
+    }
+}
+
